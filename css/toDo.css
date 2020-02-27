@@ -1,0 +1,111 @@
+ul{
+  list-style-type: none;
+  display:flex;
+  justify-content:space-evenly; 
+  margin: 0;
+}
+
+.nav-item {
+  padding: 27px;
+}
+
+.nav_logo {
+  height:50px;
+  
+
+}
+body, html{
+  height: 100%;
+  margin: 0;
+  
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  
+}
+
+.hero-text button:hover {
+  background-color:blue;
+  color: white;
+  
+}
+
+.shoptickets{
+  height:100px;
+  background-image: url('https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/73/f2/48.jpg');
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-gap: 50px;
+  justify-content: center;
+}
+
+.activity_text, h4 {
+  text-align: center;
+}
+
+.grid-image {
+  height: 500px;
+  width: 500px;
+}
+
+.logo{
+  height:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+footer img{
+  height:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+footer { 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   text-align: center;
+}
+
+.link_item {
+  font-size: 2rem;
+  padding: 15px;
+  color: skyblue;
+}
+p.copyright {
+    margin: 15px 0 0;
+    color:black;
+    font-family: 'Zhi Mang Xing', cursive;
+}

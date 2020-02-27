@@ -1,0 +1,151 @@
+ul{
+  list-style-type: none;
+  display:flex;
+  justify-content:space-evenly; 
+  margin: 0;
+}
+
+.nav-item {
+  padding: 27px;
+}
+
+.nav_logo {
+  height:50px;
+
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  
+}
+
+.hero-text button:hover {
+  background-color:blue;
+  color: white;
+}
+.culture, p, h3{
+font-family: 'Bangers', cursive;
+text-align:center;
+padding:30px;
+}
+.container{
+ display: grid;
+ justify-content:center;
+ background-color:lightblue;
+  height:1000px; 
+} 
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    height: 1000px;
+}
+.image, img{
+  height: 200px;
+  margin:10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.flex-container > section {
+  background-color: lightblue;
+  width:350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+}
+.medan{
+  background-image: url('https://images.unsplash.com/photo-1559628233-100c798642d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1275&q=80');
+  background-size: cover;
+    
+}
+.bali{
+ background-image: url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1277&q=80');
+  background-size: cover;
+}
+.banyuwangi{
+   background-image: url('https://images.unsplash.com/photo-1540690448301-9f7ead5263ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2168&q=80');
+  background-size: cover;
+}
+.bintan{
+   background-image: url('https://images.unsplash.com/photo-1575689173177-8c3870b5ccb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80');
+  background-size: cover;
+}
+.jakarta{
+   background-image: url('https://images.unsplash.com/photo-1518612424477-ab93f2480a37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80');
+  background-size: cover;
+}
+.yogyakarta{
+   background-image: url('https://images.unsplash.com/photo-1575279099331-ab1894fc7b97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=887&q=80');
+  background-size: cover;
+}
+.makassar{
+   background-image: url('https://images.unsplash.com/photo-1563244494-642ee4284ac3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80');
+  background-size: cover;
+}
+.lombok{
+   background-image: url('https://images.unsplash.com/photo-1541535263075-fe16e19c6501?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+  background-size: cover;
+}
+
+
+footer img{
+  height:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+footer { 
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   text-align: center;
+}
+
+
+.link_item {
+  font-size: 2rem;
+  padding: 15px;
+  color: skyblue;
+}
+p.copyright {
+    margin: 15px 0 0;
+    color:black;
+    font-family: 'Zhi Mang Xing', cursive;
+}
